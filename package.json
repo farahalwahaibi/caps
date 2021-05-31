@@ -1,0 +1,28 @@
+{
+  "name": "caps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node caps.js",
+    "test": "jest --verbose --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farahalwahaibi/caps.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/farahalwahaibi/caps/issues"
+  },
+  "homepage": "https://github.com/farahalwahaibi/caps#readme",
+  "dependencies": {
+    "@code-fellows/supergoose": "^1.1.0",
+    "dotenv": "^10.0.0",
+    "faker": "^5.5.3",
+    "jest": "^27.0.3",
+    "supertest": "^6.1.3"
+  }
+}
